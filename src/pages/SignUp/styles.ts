@@ -33,13 +33,13 @@ const appearFromRight = keyframes`
 `;
 
 export const AnimationContainer = styled.div`
- display: flex;
+  display: flex;
   flex-direction: column;
   align-items: center;
 
   animation: ${appearFromRight} 1s;
 
-form {
+  form {
     margin: 80px 0;
     width: 340px;
     text-align: center;
@@ -78,7 +78,9 @@ form {
     svg {
       margin-right: 16px;
     }
+  }
 `;
+
 export const Background = styled.div`
   flex: 1;
   background: url(${signUpBackgroundImg}) no-repeat center;
